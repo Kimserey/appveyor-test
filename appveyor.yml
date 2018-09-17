@@ -2,8 +2,8 @@ install:
   - choco install gitversion.portable -pre -y
 
 before_build:
-  - ps: git checkout -b build
-  - ps: gitversion /l console /output buildserver
+  - cmd: git checkout -b build
+  - cmd: gitversion /l console /output buildserver
 
 build_script:
   - cmd: dotnet build
