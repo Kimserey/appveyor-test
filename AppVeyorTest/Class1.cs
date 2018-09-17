@@ -6,5 +6,6 @@ namespace AppVeyorTest
     {
         // Added a comment
         // Added a comment
+        // Added a comment
     }
 }
