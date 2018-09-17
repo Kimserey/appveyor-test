@@ -3,7 +3,7 @@ install:
 
 before_build:
   - nuget restore
-  - ps: gitversion /l console /output buildserver /updateAssemblyInfo
+  - ps: gitversion /l console /output buildserver
 
 build_script:
   - cmd: dotnet build
